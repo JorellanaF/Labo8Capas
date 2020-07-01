@@ -58,7 +58,7 @@ public class JpaConfiguration {
 		 * En este caso el servidor postgres se encuentra en la misma maquina (localhost)
 		 * Cambiar a la IP correspondiente si en su caso no fuera asi
 		 */
-		dataSource.setUrl("jdbc:postgresql://localhost:5432/Labo8");
+		dataSource.setUrl("jdbc:postgresql://localhost:5432/ventasng");
 		dataSource.setUsername("postgres");
 		dataSource.setPassword("root");
 		
